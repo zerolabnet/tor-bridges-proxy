@@ -1,0 +1,7 @@
+HardwareAccel 1
+Log notice file /var/log/tor/notices.log
+DNSPort 0.0.0.0:9053
+SocksPort 0.0.0.0:9150
+DataDirectory /var/lib/tor
+ExcludeExitNodes {us},{ca},{cn},{hk},{jp},{kr},{tw},{ru},{ua},{by},{kz},{in},{af},{aq},{ar},{au},{bs},{bh},{bb},{bz},{bo},{bw},{br},{bn},{bf},{bi},{kh},{cm},{cv},{ky},{cf},{td},{cl},{co},{km},{cg},{cd},{ck},{cr},{ci},{cu},{dj},{dm},{do},{ec},{eg},{sv},{gq},{et},{fk},{fo},{fj},{ga},{gm},{gh},{gi},{gl},{gd},{gp},{gu},{gt},{gn},{gw},{gy},{ht},{hn},{id},{ir},{iq},{il},{jm},{jo},{ke},{ki},{kp},{kg},{lb},{ls},{lr},{ly},{mo},{mg},{mw},{my},{mv},{ml},{mt},{mh},{mq},{mr},{mu},{yt},{mx},{fm},{mn},{ms},{ma},{mz},{mm},{na},{nr},{np},{nc},{nz},{ni},{ne},{ng},{nu},{nf},{mp},{om},{pk},{pw},{ps},{pa},{pg},{py},{pe},{ph},{pr},{qa},{re},{rw},{ws},{st},{sa},{sn},{sc},{sl},{sb},{so},{as},{za},{lk},{kn},{lc},{pm},{vc},{sd},{sr},{sz},{sy},{tj},{tz},{th},{tg},{tk},{to},{tt},{tn},{tr},{tm},{tc},{tv},{ug},{ae},{uy},{vu},{vn},{vi},{wf},{ye},{zm},{zw},{??}
+StrictNodes 1

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Start Tor
+/usr/bin/tor -f /etc/tor/torrc &
+
+# Start php-fpm
+/usr/sbin/php-fpm8 -c /etc/php8/php-fpm.conf &
+
+# Start webserver
+/usr/sbin/nginx -e /dev/stderr -c /etc/nginx/nginx.conf &
+
+# Generate password and salt (if not exists)
+/srv/pwd.sh
+
+# Wait for any process to exit
+wait -n
+
+# Exit with status of process that exited first
+exit $?
